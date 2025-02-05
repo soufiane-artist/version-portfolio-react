@@ -236,6 +236,36 @@ function ProjectsSection() {
                 <h2><i><FaProjectDiagram /></i> Featured Projects</h2>
                 <div className="section-line"></div>
             </div>
+            <div className="under-development" style={{ animation: 'pulse 2s infinite' }}>
+                <h3 style={{ color: '#ffffff', fontSize: '24px', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '1px', textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
+                    🚧 Under Development 🚧
+                </h3>
+                <p style={{ color: '#ffffff', fontSize: '18px', margin: '0', textShadow: '1px 1px 2px rgba(0,0,0,0.2)' }}>
+                    This section is currently under construction. Please check back later for updates!
+                </p>
+            </div>
+            <style>
+                {`
+                    .under-development {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        padding: 25px;
+                        margin: 20px;
+                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        border-radius: 12px;
+                        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                    }
+
+                    @keyframes pulse {
+                        0% { transform: scale(1); }
+                        50% { transform: scale(1.02); }
+                        100% { transform: scale(1); }
+                    }
+                `}
+            </style>
             <div className="projects-grid">
                 {projectsData.map((project, index) => (
                     <div key={index} className="project-card lazy-load">
