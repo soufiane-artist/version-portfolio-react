@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FaHome, FaUser, FaCode, FaTachometerAlt, FaProjectDiagram, FaEnvelope, FaArrowUp } from 'react-icons/fa';
+import { FaHome, FaUser, FaCode, FaTachometerAlt, FaProjectDiagram, FaEnvelope, FaArrowUp, FaArrowDown } from 'react-icons/fa';
 import './styles.css';
 import AboutSection from './compenents/AboutSection';
 import HomeSection from './compenents/HomeSection';
@@ -9,6 +9,9 @@ import ProjectsSection from './compenents/ProjectsSection';
 import Performance from './compenents/Performance';
 import ContactSection from './compenents/ContactSection';
 import Fotter from './compenents/Fotter';
+import VideoEditing from './compenents/VideoEditing';
+import VoiceOver from './compenents/VoiceOver';
+import { FaVideo } from 'react-icons/fa';
 
 function App() {
 
@@ -68,6 +71,19 @@ function App() {
     performanceMetrics.init();
   }, []);
 
+
+  useEffect(() => { 
+    window.addEventListener('scroll', () => {
+      if(window.scrollY > 4000){
+        document.getElementById('video-edi-btn').style.display = 'block';
+      }
+      if(window.scrollY > 10000){
+        document.getElementById('video-edi-btn').style.display = 'none';
+      }
+    });
+  }, []);
+
+ 
   return (
     <div className="App">
       <PortfolioScene />
@@ -95,12 +111,16 @@ function App() {
         <SkillsSection />
         <ProjectsSection />
         <Performance />
+        <VideoEditing />
+        <VoiceOver />
         <ContactSection />
         <Fotter />
       </main>
       <button id="scroll-to-top" className="scroll-to-top">
         <FaArrowUp />
       </button>
+
+      <a href='#voice-over'  id='video-edi-btn'  className='video-editing-btn' ><FaVideo /> video-editing <span><FaArrowDown /></span></a>
     </div>
   );
 }

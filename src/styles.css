@@ -216,6 +216,7 @@ main {
   z-index: 2;
   padding: 2rem;
   margin-top: 2rem;
+  
 }
 
 .profile-container {
@@ -225,6 +226,7 @@ main {
   margin: 0 auto 2rem;
   animation: float 6s ease-in-out infinite;
   margin-top: 3rem;
+
 }
 
 .profile-img {
@@ -1097,6 +1099,46 @@ main {
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+.video-editing-btn{
+  position: fixed;
+  bottom: 35px;
+  right: 100px;
+  z-index: 999;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  gap: 10px;
+  transition: all 0.3s ease;
+  animation: fadeIn2 0.3s infinite;
+  text-decoration: none;
+  color: white;
+  border: 2px solid yellow;
+}
+@keyframes fadeIn2 {
+  0% {
+    border: none;
+   }
+  100% {
+    border: 2px solid yellow;
+  }
+}
+
+.video-editing-btn span{
+  width: fit-content;
+  rotate: 15deg;
+}
+.video-editing-btn:hover{
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 
 .scroll-to-top:hover {
   background: var(--secondary-color);
