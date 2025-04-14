@@ -330,53 +330,6 @@ function ProjectsSection() {
                         </div>
                     </div>
                 ))}
-                {/*videos */}
-                <div className="project-card lazy-load">
-                    <div style={{width: '100%'}} className="project-video">
-                    <iframe style={{width: '100%',height: '200px',borderRadius: '10px 10px 0 0'}} controls src="https://media-hosting.imagekit.io/89ee305134de400c/2025-04-08%2016-37-17.mp4?Expires=1838734680&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=I53UAm36rLaewnoxlxPNLO8bKkkNssCES5pP0vQVxu~cumszfEs4saYcFhP45d6heX41HpTlyNbYl9zDlMTFUYSyC6Lq4whMYcXPfloAj85lpM56uHJgAEgHtXR72Od-QxtIf-swnaoT8SPkyq4xF4BOhrC3wCP5JqEvG8r4ZfOv0dlQ-EJAn9SVD4Q9zS84P9AQlfs4aZ3n9ngVXjrlaHD~w6EglHffL-iK3EKnTeAB2E7TPPtBL9E6fRSCNJ-nfSyBuAASGtpm~dvfJqFlzKGl6P3Y69RgEu6ph-UDxKr~SM2F80A0jYzTCYInVI6TGnuXvXpd06TsSGjrlU0Piw__" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                    </div>
-                    <div className="project-content">
-                        <h3>tes </h3>
-                        <p>dsfds</p>
-                        <div className="project-tech">
-                            <span><i><FaHtml5 /></i>Html</span>
-                            <span><i><FaJs /></i>JavaScript</span>
-                            <span><i><FaCss3 /></i>CSS</span>
-                        </div>
-                        <div className="project-links">
-                            <a href="#" style={{ color: '#fff' }} className="btn small"><i><FaEye /></i> Live</a>
-                            <a href="#" className="btn small secondary"><i><FaGithub /></i> Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="project-card lazy-load">
-                    <div style={{width: '100%'}} className="project-video">
-                    <iframe 
-                    style={{width: '100%', height: '200px', borderRadius: '10px 10px 0 0'}} 
-                    controls 
-                    autoPlay 
-                    muted 
-                    src="https://media-hosting.imagekit.io/ea5b87e0f68f4d63/2025-04-08%2016-05-32.mp4?Expires=1838733068&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ud7JoNyPeXdZXi-98gWBMbJ3rfS6Y2wggnMd3JxycJzpPzaVGjmCz3x0Lg9~Kmi4gCKRg3sHPKeWALH7DK6mDNSeab6np3paY96nUovluMTu1-HYA0Sc8A6d8Mk~FUarAQZKQHzMa2T8JSO6Tu6QXCxEWZc~L4dXjNhg6oSg~0hWO6Ik88wCUfJyOKpP3Xk-r975G1z2PTyDS1pBXoWVPnem9MgltLUD8~~tSFaPp736JwYE5n3Dcw71OvG-mOP0seP9BC7iQFnFrv0A~OE42Lq34VXf368M4XfmNAt0QbHFqeUrsozT~pZ0Ast0UUl0fIVOalHXmY64rXKSMqNv1Q__" 
-                    title="video player" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
-                </iframe>                    </div>
-                    <div className="project-content">
-                        <div className="project-tech">
-                            <span><i><FaHtml5 /></i>Html</span>
-                            <span><i><FaJs /></i>JavaScript</span>
-                            <span><i><FaCss3 /></i>CSS</span>
-                        </div>
-                        <h3>Project 3</h3>
-                        <p>Project 3 description</p>
-                        <div className="project-links">
-                            <a href="#" style={{ color: '#fff' }} className="btn small"><i><FaEye /></i> Live</a>
-                            <a href="#"  className="btn small secondary"><i><FaGithub /></i> Code</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     );

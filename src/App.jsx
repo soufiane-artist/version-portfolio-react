@@ -111,7 +111,6 @@ function App() {
         <SkillsSection />
         <ProjectsSection />
         <Performance />
-        <VideoEditing />
         <VoiceOver />
         <ContactSection />
         <Fotter />
