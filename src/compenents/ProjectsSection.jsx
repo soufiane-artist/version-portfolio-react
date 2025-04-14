@@ -56,7 +56,7 @@ const projectsData = [
     },
     {
         image: './imgs-portfolio/d.jpg',
-        title: 'UK IPTV Service',
+        title: 'UK IPTV Service  ukiptv.ink',
         description: 'Mobile-first social platform with real-time features',
         technologies: [
             { icon: <FaReact />, name: 'React Native' },
