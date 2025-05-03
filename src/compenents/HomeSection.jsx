@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaJs, FaVuejs, FaPlug, FaDatabase, 
-         FaGithub, FaLinkedin, FaTwitter, FaEye, FaPaperPlane } from 'react-icons/fa';
+         FaGithub, FaLinkedin, FaTwitter, FaEye, FaPaperPlane, FaInstagram } from 'react-icons/fa';
 
 function HomeSection() {
   return (
@@ -38,9 +38,13 @@ function HomeSection() {
               <FaGithub />
               <span className="tooltip">GitHub</span>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/soufiane-moutaouakil-72514533b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaLinkedin />
               <span className="tooltip">LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/soufiane_svr?igsh=MTVqeGlyenkwcGRzdg%3D%3D&utm_source=qr " target="_blank" rel="noopener noreferrer" className="social-icon">
+              <FaInstagram />
+              <span className="tooltip">Instagram</span>
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaTwitter />
