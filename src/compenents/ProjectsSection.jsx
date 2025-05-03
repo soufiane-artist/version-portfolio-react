@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaProjectDiagram, FaReact, FaNodeJs, FaDatabase, FaEye, FaGithub, FaServer, FaCloud, FaUpload, FaHtml5, FaJs, FaCss3 } from 'react-icons/fa';
+import { FaProjectDiagram, FaReact, FaNodeJs, FaSocket, FaDatabase, FaEye, FaGithub, FaServer, FaCloud, FaUpload, FaHtml5, FaJs, FaCss3 } from 'react-icons/fa';
+import { SiRedux } from 'react-icons/si';
 
 const projectsData = [
     {
@@ -26,7 +27,8 @@ const projectsData = [
             { icon: <FaServer />, name: 'Vercel' },
             { icon: <FaCloud />, name: 'Cloudflare' },
             { icon: <FaNodeJs />, name: 'Node.js' },
-            { icon: <FaJs />, name: 'Typescript' }
+            { icon: <FaJs />, name: 'Typescript' },
+            { icon: <SiRedux />, name: 'Redux' }
         ],
         liveLink: 'https://onwork.ma',
         codeLink: '#'
@@ -41,7 +43,8 @@ const projectsData = [
             { icon: <FaServer />, name: 'Vercel' },
             { icon: <FaCloud />, name: 'Cloudflare' },
             { icon: <FaNodeJs />, name: 'Node.js' },
-            { icon: <FaJs />, name: 'Typescript' }
+            { icon: <FaJs />, name: 'Typescript' },
+            { icon: <SiRedux />, name: 'Redux' }
         ],
         liveLink: 'https://recipegrove.net',
         codeLink: '#'
@@ -81,7 +84,8 @@ const projectsData = [
             { icon: <FaReact />, name: 'Next.js' },
             { icon: <FaServer />, name: 'Vercel' },
             { icon: <FaNodeJs />, name: 'Node.js' },
-            { icon: <FaDatabase />, name: 'MongoDB' }
+            { icon: <FaDatabase />, name: 'MongoDB' },
+            { icon: <SiRedux />, name: 'Redux' }
         ],
         liveLink: 'https://nextjs-project-3d-stl-xzw2.vercel.app/',
         codeLink: '#'
@@ -107,7 +111,8 @@ const projectsData = [
             { icon: <FaReact />, name: 'React.js' },
             { icon: <FaDatabase />, name: 'MongoDB' },
             { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaNodeJs />, name: 'Node.js' }
+            { icon: <FaNodeJs />, name: 'Node.js' },
+            { icon: <SiRedux />, name: 'Redux' }
         ],
         liveLink: 'https://elfanane-7a30c.web.app/',
         codeLink: '#'
@@ -142,7 +147,9 @@ const projectsData = [
             { icon: <FaReact />, name: 'React.js' },
             { icon: <FaDatabase />, name: 'MongoDB' },
             { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaNodeJs />, name: 'Node.js' }
+            { icon: <FaNodeJs />, name: 'Node.js' },
+            { icon: <SiRedux />, name: 'Redux' },
+            { icon: <FaSocket />, name: 'Socket.io' }
         ],
         liveLink: 'https://www.meta2fx.com',
         codeLink: '#'
