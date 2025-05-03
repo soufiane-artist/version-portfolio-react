@@ -2,102 +2,179 @@ import React from 'react';
 import { FaProjectDiagram, FaReact, FaNodeJs, FaDatabase, FaEye, FaGithub, FaServer, FaCloud, FaUpload, FaHtml5, FaJs, FaCss3 } from 'react-icons/fa';
 
 const projectsData = [
-    
     {
-        image: './imgs-portfolio/e.jpg',
-        title: 'Social Media App (elfanane.com)',
-        description: 'Social media platform with real-time features',
+        image: './imgs-portfolio/m.jpg',
+        title: 'www.artilo.site',
+        description: 'My website, Artilo.site, offers high-quality printable digital art with limited-time offers.',
         technologies: [
-            { icon: <FaReact />, name: 'React.js' },
-            { icon: <FaDatabase />, name: 'MongoDB' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'Cloudflare' }
+            { icon: <FaReact />, name: "React.js" },
+            { icon: <FaServer />, name: "Firebase" },
+            { icon: <FaCloud />, name: "MongoDB" },
+            { icon: <FaNodeJs />, name: "Node.js" }
         ],
-        liveLink: 'https://elfanane.com',
+        liveLink: 'https://artilo.site/',
         codeLink: '#'
     },
+   
     {
         image: './imgs-portfolio/o.png',
-        title: 'onwork.ma',
-        description: 'Agence de marketing digital à fès',
+        title: 'www.onwork.ma',
+        description: 'Digital marketing agency in Fes with a complete management system',
         technologies: [
             { icon: <FaReact />, name: 'React.js' },
             { icon: <FaDatabase />, name: 'MongoDB' },
             { icon: <FaServer />, name: 'Vercel' },
-            { icon: <FaCloud />, name: 'Cloudflare' }
+            { icon: <FaCloud />, name: 'Cloudflare' },
+            { icon: <FaNodeJs />, name: 'Node.js' },
+            { icon: <FaJs />, name: 'Typescript' }
         ],
         liveLink: 'https://onwork.ma',
         codeLink: '#'
     },
     {
         image: './imgs-portfolio/p.jpg',
-        title: 'recipegrove.net',
+        title: 'www.recipegrove.net',
         description: 'Web site for American Home Cooking Made Simple & Delicious',
         technologies: [
             { icon: <FaReact />, name: 'Next.js' },
             { icon: <FaDatabase />, name: 'MongoDB' },
             { icon: <FaServer />, name: 'Vercel' },
-            { icon: <FaCloud />, name: 'Cloudflare' }
+            { icon: <FaCloud />, name: 'Cloudflare' },
+            { icon: <FaNodeJs />, name: 'Node.js' },
+            { icon: <FaJs />, name: 'Typescript' }
         ],
         liveLink: 'https://recipegrove.net',
         codeLink: '#'
     },
     {
-        image: './imgs-portfolio/c.jpg',
-        title: 'www.meta2fx.com',
-        description: 'Trading platform',
+        image: './imgs-portfolio/a.jpg',
+        title: 'www.errachidia.online',
+        description: 'A website that helps people register so we can support them in growing their startups and local businesses',
         technologies: [
             { icon: <FaReact />, name: 'React.js' },
-            { icon: <FaDatabase />, name: 'MongoDB' },
             { icon: <FaServer />, name: 'Firebase' },
+            { icon: <FaNodeJs />, name: 'Node.js' },
+            { icon: <FaDatabase />, name: 'MongoDB' },
         ],
-        liveLink: 'https://www.meta2fx.com',
+        liveLink: 'https://errachidia.online',
         codeLink: '#'
     },
+    
     {
         image: './imgs-portfolio/d.jpg',
-        title: 'UK IPTV Service  ukiptv.ink',
-        description: 'Mobile-first social platform with real-time features',
+        title: 'www.ukiptv.ink',
+        description: 'UK IPTV Service ',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
+            { icon: <FaReact />, name: 'React.js' },
             { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+            { icon: <FaNodeJs />, name: 'Node.js' },
+            { icon: <FaDatabase />, name: 'MongoDB' }
         ],
         liveLink: 'https://ukiptv.ink',
         codeLink: '#'
     },
     {
-        image: './imgs-portfolio/h.jpg',
-        title: 'Portfolio Project',
+        image: './imgs-portfolio/nh,nj,k.jpg',
+        title: '3D Project',
+        description: 'My website is an online store for selling 3D items in STL format, where users can browse, purchase, and download ready-made models easily and professionally',
+        technologies: [
+            { icon: <FaReact />, name: 'Next.js' },
+            { icon: <FaServer />, name: 'Vercel' },
+            { icon: <FaNodeJs />, name: 'Node.js' },
+            { icon: <FaDatabase />, name: 'MongoDB' }
+        ],
+        liveLink: 'https://nextjs-project-3d-stl-xzw2.vercel.app/',
+        codeLink: '#'
+    },
+    {
+        image: './imgs-portfolio/sdfd.jpg',
+        title: 'art.nichanlabs.com',
+        description: 'My website is a branch of Nishan Labs, dedicated to showcasing my hand-drawn artistic works. It offers visitors the chance to explore my original paintings and enjoy their intricate details, with options to order printed or digital copies',
+        technologies: [
+            { icon: <FaReact />, name: 'React.js' },
+            { icon: <FaServer />, name: 'Vercel' },
+            { icon: <FaNodeJs />, name: 'Node.js' },
+        ],
+        liveLink: 'https://art.nichanlabs.com/',
+        codeLink: '#'
+    },
+    
+    {
+        image: './imgs-portfolio/e.jpg',
+        title: 'www.elfanane.com',
+        description: 'Social media platform with real-time features',
+        technologies: [
+            { icon: <FaReact />, name: 'React.js' },
+            { icon: <FaDatabase />, name: 'MongoDB' },
+            { icon: <FaServer />, name: 'Firebase' },
+            { icon: <FaNodeJs />, name: 'Node.js' }
+        ],
+        liveLink: 'https://elfanane-7a30c.web.app/',
+        codeLink: '#'
+    },
+    {
+        image: './imgs-portfolio/L.jpg',
+        title: 'Mobile App',
+        description: 'I have converted my website elfanane.com into a fully functional mobile application, allowing users to easily browse and purchase artworks from their smartphones, while also enabling artists to showcase and sell their own paintings through the app',
+        technologies: [
+            { icon: <FaServer />, name: 'Median' },
+        ],
+        downloadLink: './apps/elfanane.apk',
+        isDownloadable: true,
+        codeLink: '#'
+    },
+    {
+        image: './imgs-portfolio/kk.jpg',
+        title: 'planner-app-sepia.vercel.app',
         description: 'Mobile-first social platform with real-time features',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
+            { icon: <FaHtml5 />, name: 'Html' },
+            { icon: <FaJs />, name: 'JavaScript' },
+        ],
+        liveLink: 'https://planner-app-sepia.vercel.app/',
+        codeLink: '#'
+    },
+    {
+        image: './imgs-portfolio/c.jpg',
+        title: 'www.meta2fx.com',
+        description: 'Trading platform with real-time features',
+        technologies: [
+            { icon: <FaReact />, name: 'React.js' },
+            { icon: <FaDatabase />, name: 'MongoDB' },
             { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+            { icon: <FaNodeJs />, name: 'Node.js' }
+        ],
+        liveLink: 'https://www.meta2fx.com',
+        codeLink: '#'
+    },
+    {
+        image: './imgs-portfolio/h.jpg',
+        title: 'IPTV subscriptions',
+        description: 'Attractive website design for selling IPTV subscriptions.',
+        technologies: [
+            { icon: <FaReact />, name: 'React.js' },
         ],
         liveLink: '#',
         codeLink: '#'
     },
     {
         image: './imgs-portfolio/g.jpg',
-        title: 'Web Application',
-        description: 'Mobile-first social platform with real-time features',
+        title: 'IPTV subscriptions',
+        description: 'Attractive website design for selling IPTV subscriptions.',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+            { icon: <FaReact />, name: 'React.js' },
         ],
         liveLink: '#',
         codeLink: '#'
     },
     {
         image: './imgs-portfolio/b.jpg',
-        title: 'SoufJS Platform',
-        description: 'Mobile-first social platform with real-time features',
+        title: 'Portfolio Project',
+        description: 'Portfolio website with React.js',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
+            { icon: <FaReact />, name: 'React.js' },
             { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+
         ],
         liveLink: 'https://souf-js.web.app/',
         codeLink: '#'
@@ -107,146 +184,71 @@ const projectsData = [
         title: 'Art Portfolio',
         description: 'Mobile-first social platform with real-time features',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
+            { icon: <FaReact />, name: 'React.js' },
             { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
         ],
         liveLink: 'https://soufiane-art.web.app/',
         codeLink: '#'
     },
     {
         image: './imgs-portfolio/F.jpg',
-        title: 'E-Commerce Platform',
-        description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
+        title: '2metabank – A digital banking',
+        description: 'experience with seamless money transfers between users, easy account top-ups, and comprehensive account management.',
         technologies: [
-            { icon: <FaReact />, name: 'React' },
+            { icon: <FaReact />, name: 'React.js' },
             { icon: <FaNodeJs />, name: 'Node.js' },
-            { icon: <FaDatabase />, name: 'MongoDB' }
+            { icon: <FaDatabase />, name: 'MongoDB' },
+            { icon: <FaServer />, name: 'Not hosting' },
         ],
         liveLink: '#',
         codeLink: '#'
     },
     {
         image: './imgs-portfolio/i.jpg',
-        title: 'Creative Project',
-        description: 'Mobile-first social platform with real-time features',
+        title: 'Modern Design',
+        description: 'AI payroll platform with a modern design, clear marketing message, and a call to join.',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+            { icon: <FaHtml5 />, name: 'Html' },
         ],
         liveLink: '#',
         codeLink: '#'
     },
-    {
-        image: './imgs-portfolio/a.jpg',
-        title: 'ERR Web Platform',
-        description: 'Mobile-first social platform with real-time features',
-        technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
-        ],
-        liveLink: 'https://err-web.web.app/',
-        codeLink: '#'
-    },
-    {
-        image: './imgs-portfolio/m.jpg',
-        title: 'Artilo Platform',
-        description: 'Mobile-first social platform with real-time features',
-        technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
-        ],
-        liveLink: 'https://artilo.site/',
-        codeLink: '#'
-    },
+    
+   
     {
         image: './imgs-portfolio/n.jpg',
-        title: 'Planner App',
-        description: 'Mobile-first social platform with real-time features',
+        title: 'Amazigh website features',
+        description: 'Your Amazigh website features a simple and elegant design with touches of Amazigh culture, using warm colors and geometric symbols that reflect the heritage.',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+            { icon: <FaHtml5 />, name: 'Html' },
         ],
-        liveLink: 'https://planner-app-sepia.vercel.app/',
+        liveLink: '#',
         codeLink: '#'
     },
-    {
-        image: './imgs-portfolio/kk.jpg',
-        title: 'Planning Platform',
-        description: 'Mobile-first social platform with real-time features',
-        technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
-        ],
-        liveLink: 'https://planner-app-sepia.vercel.app/',
-        codeLink: '#'
-    },
+    
     {
         image: './imgs-portfolio/dsfe.jpg',
         title: '3D STL Viewer',
-        description: 'Mobile-first social platform with real-time features',
+        description: 'My website is an online platform for showcasing 3D models in STL format, allowing users to view, upload, and download their files easily and professionally',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+            { icon: <FaReact />, name: 'React.js' },
         ],
-        liveLink: 'https://nextjs-project-3d-stl-xzw2.vercel.app/',
+        liveLink: '#',
         codeLink: '#'
     },
-    {
-        image: './imgs-portfolio/nh,nj,k.jpg',
-        title: '3D Project',
-        description: 'Mobile-first social platform with real-time features',
-        technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
-        ],
-        liveLink: 'https://nextjs-project-3d-stl-xzw2.vercel.app/',
-        codeLink: '#'
-    },
-    {
-        image: './imgs-portfolio/sdfd.jpg',
-        title: 'Planning Tool',
-        description: 'Mobile-first social platform with real-time features',
-        technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
-        ],
-        liveLink: 'https://art.nichanlabs.com/',
-        codeLink: '#'
-    },
+   
+    
     {
         image: './imgs-portfolio/sqd.jpg',
-        title: 'Project Management',
-        description: 'Mobile-first social platform with real-time features',
+        title: 'Lab de biologique',
+        description: 'An attractive and interactive front-end interface for a digital laboratory platform, designed to provide a seamless, modern user experience with a dynamic layout that reflects the spirit of a digital lab',
         technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
+            { icon: <FaReact />, name: 'React.js' },
         ],
-        liveLink: 'https://planner-app-sepia.vercel.app/',
+        liveLink: '#',
         codeLink: '#'
     },
-    {
-        image: './imgs-portfolio/L.jpg',
-        title: 'Mobile App',
-        description: 'Mobile-first social platform with real-time features',
-        technologies: [
-            { icon: <FaReact />, name: 'React Native' },
-            { icon: <FaServer />, name: 'Firebase' },
-            { icon: <FaCloud />, name: 'AWS' }
-        ],
-        downloadLink: './apps/elfanane.apk',
-        isDownloadable: true,
-        codeLink: '#'
-    }
+    
 ];
 
 function ProjectsSection() {
