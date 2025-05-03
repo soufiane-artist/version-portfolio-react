@@ -40,7 +40,7 @@ function HomeSection() {
             </a>
             <a href="https://www.linkedin.com/in/soufiane-moutaouakil-72514533b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaLinkedin />
-              <span className="tooltip">LinkedIn</span>
+              <span className="tooltip">LinkediIN</span>
             </a>
             <a href="https://www.instagram.com/soufiane_svr?igsh=MTVqeGlyenkwcGRzdg%3D%3D&utm_source=qr " target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaInstagram />
